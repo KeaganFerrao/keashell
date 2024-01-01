@@ -13,34 +13,34 @@
 10. rm
 11. cp
 12. cat
+13. mv
+14. grep
+15. wc
 
-## Commands that will be added soon:
-1. mv
-2. grep
-3. wc
-4. more
-5. less
-6. vim
-7. which
-8. ln
-9. zip
-10. unzip
-11. ps
-12. pkill
-13. curl
-14. wget
-15. ping
-16. tcp
-17. ssh
-18. pipe | 
-19. ffmpeg
-20. bg
-21. fg
-22. async <-command->
-23. ctrl + Z
-24. ctrl + C
-25. jsontocsv
-26. dbconnect
+## Commands that will be added:
+more
+less
+vim
+which
+ln
+zip
+unzip
+ps
+pkill
+curl
+wget
+ping
+tcp
+ssh
+pipe | 
+ffmpeg
+bg
+fg
+async <-command->
+ctrl + Z
+ctrl + C
+jsontocsv
+dbconnect
 
 ## Installation
 ```

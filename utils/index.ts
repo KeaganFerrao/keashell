@@ -75,6 +75,42 @@ const displaySupportedCommands = () => {
             name: 'cd',
             description: 'Change directory',
         },
+        {
+            name: 'touch',
+            description: 'Create a file',
+        },
+        {
+            name: 'mkdir',
+            description: 'Create a directory',
+        },
+        {
+            name: 'cp',
+            description: 'Copy a file',
+        },
+        {
+            name: 'cpdir',
+            description: 'Copy a directory',
+        },
+        {
+            name: 'rm',
+            description: 'Delete a file or directory',
+        },
+        {
+            name: 'cat',
+            description: 'Display contents of a file',
+        },
+        {
+            name: 'mv',
+            description: 'Move or rename a file',
+        },
+        {
+            name: 'grep',
+            description: 'Find a text in a file'
+        },
+        {
+            name: 'wc',
+            description: 'Count characters in a file'
+        }
     ];
     commands.forEach(command => {
         console.log(`${command.name} - ${command.description}`);

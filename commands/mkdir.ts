@@ -1,4 +1,4 @@
-import { mkdirSync } from "fs";
+import { existsSync, mkdirSync } from "fs";
 
 const createDirectory = (name: string) => {
     try {
@@ -6,6 +6,12 @@ const createDirectory = (name: string) => {
             console.error('Directory name not provided');
             return;
         }
+
+        if (existsSync(name)) {
+            console.error(`${name} already exists`);
+            return;
+        }
+
         mkdirSync(name);
     } catch (error) {
         console.error(error);
